@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+      <!--Home Section-->
+
+      <section id="home">
+        <div class="container">
+          <nav>
+            <h1><span>P</span>ortfolio</h1>
+            <ul id="sidebar">
+              <li><a href="">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills-section">Skills</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i onclick="closemenu()" class="fa-solid fa-xmark"></i>
+            </ul>
+            <i onclick="openmenu()" class="fa-solid fa-bars"></i>
+          </nav>
+          <div class="home-text">
+            <p>Front-end Developer</p>
+            <h1>Hi, I'm <span>Sarveshwaran</span><br>from Tamilnadu</h1>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- About Section -->
+
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="column-1">
+              <img src="IMG_20240610_221351.jpg" width="200px" height="500px">
+            </div>
+            <div class="column-2">
+              <h1 class="sub-title">About Me</h1>
+    
+              <p>Hi i'm  sarveshwaran Front End developer to develop and 
+                maintain responsive user-friendly web interfaces using HTML,CSS and React.js.
+              </p>
+    
+              <div class="tab">
+                <p class="tab-titles active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-titles"  onclick="opentab('experience')">Experience</p>
+                <p class="tab-titles" onclick="opentab('education')">Education</p>
+              </div>
+    
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>HTML</span></li>
+                  <li><span>CSS</span></li>
+                  <li><span>JavaScript</span></li>
+                  <li><span>React</span></li>
+                </ul>
+              </div>
+    
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2024</span><br>Fresher</li>
+                </ul>
+              </div>
+    
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2021-2024</span><br>BE from GCEB Bargur</li>
+                  <li><span>2018-2021</span><br>Diploma from IRT Polytechnic Bargur</li>
+                </ul>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+    
+      <!-- Skill Section -->
+
+    <section class="skills" id="skills-section">
+       <h2 class="pro-head">My Skills</h2>
+       <div class="skills-container">
+         <div class="skill-card">
+           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+           <p>HTML</p>
+         </div>
+         <div class="skill-card">
+           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+           <p>CSS</p>
+         </div>
+         <div class="skill-card">
+           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+           <p>JavaScript</p>
+         </div>
+         <div class="skill-card">
+           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" />
+           <p>Bootstrap</p>
+         </div>
+         <div class="skill-card">
+           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+           <p>React</p>
+         </div>
+       </div> 
+    </section>
+    
+<!-------------project Section-------------->
+  <section id="project">
+  <h1 class="pro-head">My Projects</h1>
+  <div class="list-container">
+    
+    <div class="project-list">
+      <a href="https://hotstarcloneweb.web.app/#"><img src="images1/hotstarClone.png" alt=""></a>
+      <div class="project-details">
+        <h2>HOTSTAR CLONE</h2>
+        <p>built using html,css and js</p>
+      </div>
+    </div>
+
+    <div class="project-list">
+      <img src="images1/Screenshot (27).png" alt="">
+      <div class="project-details">
+        <h2>Food App</h2>
+        <p>built using React</p>
+      </div>
+    </div>
+
+    <div class="project-list">
+      <img src="images1/Screenshot (26).png" alt="">
+      <div class="project-details">
+        <h2>Shoes Website</h2>
+        <p>built using html,css and js</p>
+      </div>
+    </div>
+
+    <div class="project-list">
+      <img src="images1/car.png" alt="">
+      <div class="project-details">
+        <h2>TO DO LIST</h2>
+        <p>built using html,css and js</p>
+      </div>
+    </div>
+
+  </div>
+  </section>
+
+<!--------------------------contact section------------------->
+
+ <section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa fa-paper-plane"></i> sarveshsanj2003@gmail.com</p>
+        <p><i class="fa fa-square-phone"></i> +91-8754772877</p>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="" class="btn btn2">Downloda CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+          <button type="submit" class="btn">submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+   </div>
+  </section>
+  <div class="copyright">
+    <p>Copyright © Sarveshwaran. Made with <i class="fa fa-heart"></i> by AS^3</p>
+  </div>
+
+</body>
+</html>
+
