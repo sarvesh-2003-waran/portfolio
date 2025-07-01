@@ -14,7 +14,7 @@ body{
 section{
     width: 100%;
     min-height: 100vh;
-} 
+}
 
 /* -----------Home section------------ */
 
@@ -211,8 +211,8 @@ nav ul li a:hover::after{
 .list-container{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
-    margin-top: 40px;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 60px;
     gap: 30px;
     row-gap: 50px;
 }
@@ -345,6 +345,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
 
+    
     .home-text{
         margin-top: 100%;
         font-size: 16px;
@@ -410,12 +411,12 @@ nav .fa-solid{
         font-size: 40px;
     }
     .skill-card {
-        padding: 20px;
-        width: 120px;
+        padding: 30px;
+        width: 180px;
     }
     .skill-card img {
-        width: 40px;
-        height: 40px;
+        width: 70px;
+        height: 70px;
         margin-bottom: 10px;
     }
     .skill-card p {
