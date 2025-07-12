@@ -98,6 +98,7 @@ nav ul li a:hover::after{
 }
 .column-1 img{
     width: 100%;
+    object-fit: cover;
     border-radius: 15px;
 }
 .column-2{
